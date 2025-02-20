@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>who are you</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .text-container {
+            font-family: Arial, sans-serif;
+            font-size: 32px;
+            color: black;
+        }
+
+        .bottom-right-image {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 100px;
+            height: auto;
+            animation: spin 10s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <p>woah...</p>
+        <p>you're actually miss the point right here</p>
+        <p>MrArgy was here for a little moment...</p>
+        <p>anyways, who are you?</p>
+    </div>
+    <img src="https://i.ytimg.com/an/1Lwl_mNQLOlxeU7_RMm_sw/featured_channel.jpg?v=618e7044" alt="Изображение" class="bottom-right-image">
+</body>
+</html>
