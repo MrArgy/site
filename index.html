@@ -53,6 +53,17 @@
             100% { transform: rotate(360deg); }
         }
     </style>
+     <script>
+    // Функция определения, с мобильного ли устройства пользователь
+    function isMobile() {
+      return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent);
+    }
+
+    // Если с телефона — перенаправляем
+    if (isMobile()) {
+      window.location.href = "https://mrargy.github.io/site/android/";
+    }
+  </script>
 </head>
 <body>
     <!-- Ссылка в правом верхнем углу -->
