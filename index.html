@@ -22,6 +22,21 @@
             font-family: Arial, sans-serif;
             font-size: 32px;
             color: black;
+            text-align: center;
+        }
+
+        .top-right-link {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        .top-right-link a {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
         }
 
         .bottom-right-image {
@@ -32,6 +47,7 @@
             height: auto;
             animation: spin 10s linear infinite;
         }
+
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
@@ -39,12 +55,17 @@
     </style>
 </head>
 <body>
+    <!-- Ссылка в правом верхнем углу -->
+    <div class="top-right-link">
+        <a href="https://mrargy.github.io/site/social/" target="_blank">My Socials</a>
+    </div>
+
     <div class="text-container">
-        <p>woah...</p>
-        <p>you're actually miss the point right here</p>
-        <p>MrArgy was here for a little moment...</p>
+        <p>welcome to my site</p>
+        <p>nothing special is happening here</p>
         <p>anyways, who are you?</p>
     </div>
+
     <img src="https://i.ytimg.com/an/1Lwl_mNQLOlxeU7_RMm_sw/featured_channel.jpg?v=618e7044" alt="isobrashenie" class="bottom-right-image">
 </body>
 </html>
