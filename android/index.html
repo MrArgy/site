@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>who are you</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .text-container {
+            font-family: Arial, sans-serif;
+            font-size: 32px;
+            color: black;
+        }
+    </style>
+<script>
+    function isMobile() {
+      return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent);
+    }
+
+    // Если НЕ с телефона — редиректим на основную версию
+    if (!isMobile()) {
+      window.location.href = "https://mrargy.github.io/site/";
+    }
+  </script>
+</head>
+<body>
+    <div class="text-container">
+        <p>im sorry but</p>
+        <p>this site is not supporting android devices at the moment</p>
+        <p>please, log from the computer or turn on the "Computer Site" function</p>
+    </div>
+</body>
+</html>
